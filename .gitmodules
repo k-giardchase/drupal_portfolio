@@ -1,0 +1,9 @@
+[submodule "sites/all/modules/dna"]
+	path = sites/all/modules/dna
+	url = https://github.com/k-giardchase/dna_module.git
+[submodule "sites/all/modules/cipher"]
+	path = sites/all/modules/cipher
+	url = https://github.com/k-giardchase/cipher_module.git
+[submodule "sites/all/modules/ping_pong"]
+	path = sites/all/modules/ping_pong
+	url = https://github.com/k-giardchase/ping_pong_module.git
