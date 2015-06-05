@@ -20,3 +20,26 @@
 /* SMACSS theme rules */
 /* @import "theme-A.css"; */
 /* @import "theme-B.css"; */
+
+
+/*Body */
+body {
+    background: #F7F7F7;
+    /*font-family: '3DumbRegular';*/
+}
+
+/* Header */
+#site-name a span {
+    padding-left: 50px;
+}
+
+
+
+/* Tags */
+.field-items a {
+    text-decoration: none;
+}
+
+#content .column .contextual-links-region .breadcrumb ol li a {
+    /*display: none;*/
+}
