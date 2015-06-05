@@ -1,0 +1,5 @@
+name = Ajax Blog Roll
+description = Display blog titles with Ajax
+package = Epicodus Examples
+core = 7.x
+files[] = blog_roll.module
