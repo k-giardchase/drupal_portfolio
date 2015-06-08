@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the AJAX Blog List feature.
+ */
+
+include_once 'ajax_blog_list.features.inc';

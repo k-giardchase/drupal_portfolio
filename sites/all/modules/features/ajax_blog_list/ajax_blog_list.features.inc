@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * ajax_blog_list.features.inc
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function ajax_blog_list_views_api($module = NULL, $api = NULL) {
+  return array("api" => "3.0");
+}

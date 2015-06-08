@@ -57,6 +57,7 @@ function blog_post_field_default_field_instances() {
   // Exported field_instance: 'node-blog_post-field_blog_date'
   $field_instances['node-blog_post-field_blog_date'] = array(
     'bundle' => 'blog_post',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => 'Enter the date the blog post was written.',
     'display' => array(
@@ -102,7 +103,7 @@ function blog_post_field_default_field_instances() {
         'text_parts' => array(),
         'year_range' => '-3:+3',
       ),
-      'type' => 'date_popup',
+      'type' => 'date_select',
       'weight' => 1,
     ),
   );
