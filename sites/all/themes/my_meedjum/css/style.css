@@ -306,3 +306,7 @@ blockquote {
       margin-left: 0px;
   }
 }
+
+#site-name a {
+    font-size: 40px;
+}
