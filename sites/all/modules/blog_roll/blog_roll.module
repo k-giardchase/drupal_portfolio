@@ -5,7 +5,7 @@
             'access arguments' => array('access content'),
             'page callback' => 'blog_roll_ajax_callback',
             'page arguments' => array(1,2),
-            'type' => MENU_CALLBACK,
+            'type' => MENU_NORMAL_ITEM,
         );
 
         return $items;
@@ -18,8 +18,11 @@
             drupal_goto('node/' . $node->nid);
         }
 
-        $build = node_view($node);
-        $html = render($build);
+        $html = render(field_view_field('node', $node, 'body', array(
+            'label' => 'hidden',
+            'type' => 'text_summary_or_trimmed',
+            'settings' => array('trim_length' => 100),
+        )));
 
         $commands = array();
         $commands[] = ajax_command_html('#blog_roll-ajax-wrapper', $html);
